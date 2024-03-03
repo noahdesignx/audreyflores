@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Audrey Flores">
+    <meta property="og:image" content="images/audrey.jpeg">
+    <meta property = "og:description" content = "Hi, I'm Audrey Flores!">
+    <title>Audrey Flores</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel = "icon" href = "images/flowerLogo2.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/d6414831a3.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <section class = "header" id = "home">
+
+        <section class = "nav">
+            <a href = "index.html"><img src = "images/flowerLogo2.png"></a>
+            <div class = "links" id = "links">
+                <i class = "fa fa-times" onClick = "hideMenu()"></i>
+                <ul>
+                    <li><a href = "#home" onClick = "hideMenu()">Home</a></li>
+                    <li><a href = "#about" onClick = "hideMenu()">About Me</a></li>
+                    <li><a href = "#contact" onClick = "hideMenu()">Contact</a></li>
+                </ul>
+            </div>
+            <i class = "fa fa-bars" onClick = "showMenu()"></i>
+        </section>
+
+        <script>
+            var navLinks = document.getElementById("links");
+        
+            function showMenu() {
+                navLinks.style.right = "0px";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+        <h1 class = "greeting">Hi, I'm</h1>
+        <h1 class = "name">Audrey Flores</h1>
+
+        <br> <br> <br>
+
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+
+            <div class="swiper-slide">
+                <h1>NWCTA '24</h1>
+        </div>
+
+        <div class="swiper-slide">
+            <h1>Violinist</h1>
+    </div>
+
+            <div class="swiper-slide">
+                    <h1>Student Body Secretary</h1>
+            </div>
+
+            <div class="swiper-slide">
+                <h1>YAO Member</h1>
+        </div>
+
+        <div class="swiper-slide">
+            <h1>HOSA Member</h1>
+    </div>
+
+            <div class="swiper-slide">
+                <h1>Future Anesthesiologist</h1>
+        </div>
+    </div>
+
+    <br>
+
+    <div class = "socials">
+
+        <div>
+            <a href = "https://www.instagram.com/thedreyster/" target = "_blank"><i class = "fa fa-instagram"></i></a>
+        </div>
+
+        <div>
+            <a href = "https://www.tiktok.com/@musicalcoconut" target = "_blank"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+        
+        <div>
+            <a href = "mailto:audrey8729@gmail.com"><i class = "fa fa-envelope-o"></i></a>
+        </div>
+        
+    </div>
+       
+    </section>
+
+    <section class = "about" id = "about">
+        <h1 class = "sectionTitle">About Me</h1>
+
+        <div class = "bio">
+            <div class = "textbox">
+                <h1>Who Am I?</h1><br>
+                <p>Hi, I'm Audrey Flores and I was born on September 30th, 2006 in Las Vegas, Nevada. I'm currently a senior at Northwest Career & Technical Academy where I'm studying biomedicine in order to become an anesthesiologist!</p>
+            </div>
+
+                <img src = "images/picture1.png" class = "walking">
+            
+        </div>
+
+        <div class = "music">
+            
+            <img src="images/violin.png" class = "playing">
+
+            <i class = " fa fa-music"></i>
+
+            
+          
+        </div>
+
+        <div class = "bio">
+            <div class = "textbox">
+                <h1>Experience</h1><br>
+                <p>I'm involved in a lot of programs and clubs at my school, such as STUCO (Student Council) and HOSA (Health Occupations Students of America). Outside of school, I'm also a violinist in the Young Artists Orchestra. </p>
+            </div>
+
+            <img src = "images/picture2.png" class = "looking">
+        </div>
+
+        <div class = "strand">
+
+            <img src = "images/music.png" class = "notes">
+            
+        </div>
+
+        <div class = "logos">
+
+            <div class = "years">
+                <a href = "https://www.nwctahawks.net/" target = "_blank"><img src = "images/nwcta.png" class = "nwcta"></a>
+                <h1>STUCO <br><br> Secretary <br><br> 3 Years</h1>
+            </div>
+            <br><br><br><br><br>
+            <div class = "years">
+                <a href = "https://hosa.org/" target = "_blank"><img src = "images/hosaLogo.png" class = "hosa"></a>
+                <h1>HOSA <br><br> Member <br><br> 3 Years</h1>
+            </div>
+            <br><br><br><br><br>
+            <div class = "years">
+                <a href = "https://lvyao.org/" target = "_blank"><img src = "images/yaoLogo.png" class = "yao"></a>
+                <h1>YAO <br><br> Violinist <br> <br>1 Year</h1>
+            </div>
+            
+            
+
+
+        </div>
+
+        <br><br><br> <br><br><br> <br><br><br> <br><br><br>
+    </section>
+
+    <section class = "contact" id = "contact">
+
+        <h1 class = "sectionTitle">Contact</h1>
+
+        <div class = "bio">
+
+
+            <img src = "images/picture3again.png" class = "glasses">
+            <div class = "socials">
+
+                <div>
+                    <a href = "https://www.instagram.com/thedreyster/" target = "_blank"><i class = "fa fa-instagram"></i></a>
+                </div>
+        
+                <div>
+                    <a href = "https://www.tiktok.com/@musicalcoconut" target = "_blank"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                
+                <div>
+                    <a href = "mailto:audrey8729@gmail.com"><i class = "fa fa-envelope-o"></i></a>
+                </div>
+                
+            </div>
+        </div>
+
+
+        <p class = copyright>Audrey Flores © 2023</p><br>
+        <a href = "" class = "credit">Website Designed By Noah Mitchell</a>
+
+<br><br><br>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disabledOnInteraction: false,
+      },
+
+      allowTouchMove: false,
+    });
+    </script>
+</body>
+</html>
